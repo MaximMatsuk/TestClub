@@ -11,7 +11,10 @@
   },
   "dependencies": {
     "react": "17.0.1",
-    "react-native": "0.64.1"
+    "react-native": "0.64.1",
+    "react-native-camera": "3.44.1",
+    "react-native-fast-image": "8.3.4",
+    "react-native-nested-scroll-view": "9.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

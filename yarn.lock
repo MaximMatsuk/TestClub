@@ -5113,7 +5113,7 @@ prompts@^2.0.1, prompts@^2.4.0:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.7.2:
+prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -5163,6 +5163,13 @@ react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-native-camera@3.44.1:
+  version "3.44.1"
+  resolved "https://registry.yarnpkg.com/react-native-camera/-/react-native-camera-3.44.1.tgz#60e7d60fe778c1fc59d0579b64c63c3c1a59865a"
+  integrity sha512-B95RL3laK2v8R7L/37v28MYcEcwsM/mS94h6EZuRMLH5HFolkAwh7zJo+UAn7FG9eFtAdBwIM6s9OqYudTVO4Q==
+  dependencies:
+    prop-types "^15.6.2"
+
 react-native-codegen@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/react-native-codegen/-/react-native-codegen-0.0.6.tgz#b3173faa879cf71bfade8d030f9c4698388f6909"
@@ -5171,6 +5178,16 @@ react-native-codegen@^0.0.6:
     flow-parser "^0.121.0"
     jscodeshift "^0.11.0"
     nullthrows "^1.1.1"
+
+react-native-fast-image@8.3.4:
+  version "8.3.4"
+  resolved "https://registry.yarnpkg.com/react-native-fast-image/-/react-native-fast-image-8.3.4.tgz#79edca177e30311b19d59ff335625bcbe22650d7"
+  integrity sha512-LpzAdjUphihUpVEBn5fEv5AILe55rHav0YiZroPZ1rumKDhAl4u2cG01ku2Pb7l8sayjTsNu7FuURAlXUUDsow==
+
+react-native-nested-scroll-view@9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-nested-scroll-view/-/react-native-nested-scroll-view-9.0.0.tgz#c9afd2678be84f1707186abb510543b56f94f9ef"
+  integrity sha512-I7c/so7RaLbeZaJKAcZPYqyN8LTA9K5PtyUE7p17lXIs4/KLEkzej8YOa5KzDxSiX7RWKPmqlfxgcqkx50hX/Q==
 
 react-native@0.64.1:
   version "0.64.1"
